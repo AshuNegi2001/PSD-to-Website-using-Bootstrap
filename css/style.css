@@ -1,0 +1,264 @@
+/* navbar */
+
+#top_nav{
+    background-color: #dac000;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+#logo_nav{
+    padding-left:25px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#search_box::placeholder{
+    color:white;
+}
+
+#search_box{
+    background-color: #fcc302;
+    border-radius:0;
+    border:0;
+    color:white;
+    position:relative;
+    left:47px;
+    box-shadow:5px 10px 11px #00000021;
+    
+}
+#search_btn{
+    position:relative;
+    z-index:99;
+    background-color: #00bec9;
+    color:white;
+    border-radius:0;
+    border:0;
+    
+}
+
+@media only screen and (max-width:992px){
+    #search_form{
+        margin-bottom: 15px;
+        position:relative;
+        left:-20px;
+        width:101%;
+    }
+}
+
+/* @media only screen and (max-width:500px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 15px;    
+    }
+} */
+
+@media only screen and (max-width:348px){
+    #top_nav{
+        padding:0;
+    }
+    .img-fluid{
+        width: 180px;
+    }   
+}
+
+/* banner */
+
+#banner{
+    background-color: #fcc302;
+    color:white;
+    padding-bottom:20px;
+}
+
+#banner h1{
+    font-size:70px;
+    margin-top:100px;
+}
+
+#banner p{
+    font-size: 19px;
+    margin-top:25px;
+    margin-bottom:20px;
+}
+
+#banner_btn_1{
+    color:white;
+    background-color: #00bec9;
+    padding:10px;
+    margin-right:5px;
+}
+#banner_btn_2{
+    color:white;
+    /* background-color:#daac00; */
+    border:2px solid white;
+    padding:10px;
+    margin-left:5px;
+}
+
+@media only screen and (max-width:1252px){
+    #banner h1{
+        font-size:50px;
+    }
+}
+@media only screen and (max-width:1000px){
+    #banner h1{
+        font-size:40px;
+        margin-top:60px;
+    }
+    #banner p{
+        font-size: 15px;
+    }
+    #banner_img{
+        padding-top:50px;
+    }
+}
+
+/* service */
+
+#service_text{
+    padding-top:10%;
+    padding-bottom:5%;
+}
+
+#service_text h1{
+    font-size:50px;
+}
+#service_text p{
+    font-size:20px;
+}
+#service_btn{
+    color:white;
+    padding:10px;
+    background-color: #fcc302;
+}
+
+#service_img{
+    padding-top:5%;
+    /* display:flex;
+    justify-content: center; */
+}
+#service{
+    padding:25px;
+}
+
+@media only screen and (max-width:992px){
+    #service_text h1{
+        font-size:40px;
+    }
+    #service_text p{
+        font-size:15px;
+    }
+}
+
+@media only screen and (max-width:811px){
+    #service_text h1{
+        font-size:35px;
+    }
+    /* #service_text p{
+        font-size:12px;
+    } */
+}
+
+/* counter */
+
+#counter_selection{
+    background-image: url("../images/counter.png");
+    padding-top: 50px;
+    padding-bottom:70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.counter_icon{
+    font-size:50px;
+
+} 
+
+/* blog */
+
+#blog{
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+}
+#blog_title{
+    font-size: 50px;
+    font-weight:bolder;
+}
+#blog_p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+#article_detail{
+    padding:15px;
+    border:1px solid rgb(185, 185, 185);
+    border-top:0;
+
+}
+
+#article_date, .article_link{
+    color:#00bec9;
+}
+
+/* footer */
+#footer{
+    background-color: #343434;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+#footer a{
+    color:white;
+    text-decoration:none;
+}
+
+#footer_form{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#footer_search_box{
+    background-color: #fcc302;
+    color:white;
+    border:0;
+    padding:15px;
+    width:100%;
+    max-width:250px;
+    position:relative;
+    left:10px;
+
+}
+#footer_search_submit{
+    background-color: #00bec9;
+    color:white;
+    border:0;
+    border-radius:0;
+    padding:15px 40px;
+}
+.social-icon{
+    font-size:25px;
+    padding-left:5px;
+}
+@media only screen and (max-width:1150px){
+    #footer_search_box{
+        max-width:200px;
+    }
+}
+@media only screen and (max-width:768px){
+    #footer_search_box{
+        max-width:120px;
+    }
+}
+@media only screen and (max-width:500px){
+    #footer_search_box{
+        max-width:200px;
+    }
+    #footer{
+        padding-top:10px;
+    }
+    #footer h4{
+        padding-top:50px;
+    }
+}
